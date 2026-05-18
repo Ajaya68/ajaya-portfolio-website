@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Ajaya Mahanty — Full Stack Java Developer</title>
+<meta name="description" content="Portfolio of Ajaya Mahanty — Full Stack Java Developer (Java, Spring Boot, ReactJS, Oracle SQL, PL/SQL)." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230a0a0a'/%3E%3Ctext x='50%25' y='56%25' font-size='16' font-family='Inter,sans-serif' font-weight='700' fill='%237dd3fc' text-anchor='middle' dominant-baseline='middle'%3EAM%3C/text%3E%3C/svg%3E" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+<link rel="stylesheet" href="../src/styles/style.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <header id="nav" class="site-nav">
+    <div class="container d-flex align-items-center justify-content-between py-3 gap-3">
+      <a href="#home" class="brand">AJAYA MAHANTY</a>
+      <nav class="pill-nav d-none d-md-flex" aria-label="Primary">
+        <a href="#home" class="pill active" data-link>Home</a>
+        <a href="#about" class="pill" data-link>About</a>
+        <a href="#work" class="pill" data-link>Work</a>
+        <a href="#certification" class="pill" data-link>Certification</a>
+      </nav>
+      <a href="#contact" class="btn-ghost">Contact Me</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <div class="d-flex align-items-center gap-3 mb-4">
+              <div class="avatar-mini"><span>A</span></div>
+              <div class="avail"><span class="dot"></span> Available for work</div>
+            </div>
+            <h1 class="hero-title">Building Scalable Websites for the Future</h1>
+            <div class="hero-cta mt-4">
+              <a class="btn-primary-cyan" href="./docs/Ajaya-resume.pdf" target="_blank" rel="noopener">Download CV <i class="bi bi-download"></i></a>
+              <a class="btn-ghost" href="#footer">Scroll down <i class="bi bi-arrow-down"></i></a>
+            </div>
+            <p id="about" class="hero-sub mt-5">Passionate Full Stack Java Developer skilled in Core Java,HTML, CSS, Bootstrap, JavaScript, Oracle SQL and PL/SQL. Experienced in building scalable apps, REST APIs and clean UI/UX.</p>
+            <div class="stats">
+              <div><div class="stat-value">5<span>+</span></div><div class="stat-label">Projects done</div></div>
+              <div><div class="stat-value">2<span>+</span></div><div class="stat-label">Years of learning</div></div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img src="./images/AjayaProfile.png" alt="Ajaya profile" class="hero-profile-img">
+            <!-- <div class="hero-card">
+              <div class="hero-orb orb-a"></div>
+              <div class="hero-orb orb-b"></div>
+              <div class="hero-card-inner text-center">
+                <div class="initials">AM</div>
+                <div class="role-top">FULL STACK</div>
+                <div class="role-main">Java Developer</div>
+                <div class="role-sub">Hyderabad · India</div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOOLS -->
+    <section class="tools">
+      <div class="container">
+        <div class="row g-5 align-items-start">
+          <div class="col-lg-5">
+            <h2 class="section-title">Essential Tools <br> I use</h2>
+            <p class="section-sub">Discover the powerful tools and technologies I use to create exceptional, high-performing web applications & enterprise systems.</p>
+          </div>
+          <div class="col-lg-7">
+            <div class="tools-grid" id="toolsGrid"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="work" class="projects">
+      <div class="container">
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end gap-3 mb-5">
+          <h2 class="section-title m-0">My portfolio highlights</h2>
+        </div>
+        <div class="row g-4" id="projectsGrid"></div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section id="certification" class="certs">
+      <div class="container">
+        <h2 class="section-title">Certificates</h2>
+        <p class="section-sub mb-5" style="max-width:420px">Certifications that validate my Full-Stack Java journey and coding practice.</p>
+        <div class="row g-4" id="certsGrid"></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-5">
+            <h2 class="section-title">Contact me for collaboration</h2>
+            <p class="section-sub">Reach out today to discuss your project needs and start collaborating on something amazing!</p>
+            <div class="socials mt-4">
+              <a href="https://github.com/Ajaya68" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+              <a href="https://linkedin.com/in/ajaya-mahanty" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+              <a href="mailto:ajayafullstackdev@gmail.com" aria-label="Email"><i class="bi bi-envelope"></i></a>
+              <a href="https://www.instagram.com/ajaya.vibes" target="_blank" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <form id="contactForm" class="contact-form" method="POST" action="https://api.web3forms.com/submit">
+
+  <!-- Web3Forms config -->
+  <input type="hidden" name="access_key" value="b85a9274-5b58-44cd-92d8-8c4f5e756d53" />
+  <input type="hidden" name="subject" value="New Portfolio Contact — Ajaya Mahanty" />
+  <input type="hidden" name="redirect" value="false" />
+
+  <div class="row g-3">
+    <div class="col-md-6">
+      <label for="name" class="form-label">Name</label>
+      <input id="name" name="name" type="text" class="form-control" placeholder="Ajaya Mahanty" required />
+    </div>
+    <div class="col-md-6">
+      <label for="email" class="form-label">Email</label>
+      <input id="email" name="email" type="email" class="form-control" placeholder="you@example.com" required />
+    </div>
+    <div class="col-12">
+      <label for="message" class="form-label">Message</label>
+      <textarea id="message" name="message" rows="5" class="form-control" placeholder="Hi!" required></textarea>
+    </div>
+    <div class="col-12">
+      <button type="submit" id="submit-btn" class="btn-primary-cyan w-100 justify-content-center">Submit</button>
+    </div>
+  </div>
+
+  <div id="formToast" class="form-toast" role="status" aria-live="polite"></div>
+
+</form>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="footer-card position-relative overflow-hidden">
+        <div class="row g-4">
+          <div class="col-lg-5">
+            <h3 class="footer-heading">Let’s work<br/>together today!</h3>
+            <a href="#contact" class="btn-primary-cyan mt-3">Start project <i class="bi bi-chevron-right"></i></a>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="footer-title">Sitemap</div>
+            <ul class="footer-list">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#work">Work</a></li>
+              <li><a href="#certification">Certification</a></li>
+              <li><a href="#contact">Contact me</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="footer-title">Socials</div>
+            <ul class="footer-list">
+              <li><a href="https://github.com/Ajaya68" target="_blank" rel="noopener">GitHub</a></li>
+              <li><a href="https://linkedin.com/in/ajaya-mahanty" target="_blank" rel="noopener">LinkedIn</a></li>
+              <li><a href="mailto:ajayafullstackdev@gmail.com">Email</a></li>
+              <li><a href="https://www.instagram.com/ajaya.vibes" target="_blank">Instagram</a></li>
+              <li><a href="https://www.hackerrank.com/profile/ajaya_javadevel1" target="_blank">HackerRank</a></li>
+            </ul>
+          </div>
+        </div>
+        <span class="orb f1"></span>
+        <span class="orb f2"></span>
+        <span class="orb f3"></span>
+        <span class="orb f4"></span>
+        <span class="orb f5"></span>
+      </div>
+      <div class="copyright">Designed &amp; Built by © 2025 AJAYA MAHANTY</div>
+    </div>
+  </footer>
+
+  <a href="#home" id="toTop" class="to-top" aria-label="Back to top"><i class="bi bi-arrow-up"></i></a>
+
+  <!-- React root (kept empty so CRA hot reload does not break) -->
+  <div id="root" style="display:none"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../src/scripts/script.js"></script>
+  <script>
+  document.getElementById("contactForm").addEventListener("submit", async function (e) {
+    e.preventDefault();
+
+    const btn = document.getElementById("submit-btn");
+    const toast = document.getElementById("formToast");
+
+    btn.disabled = true;
+    btn.textContent = "Sending...";
+
+    const formData = new FormData(this);
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const result = await response.json();
+
+    toast.style.display = "block";
+
+    if (result.success) {
+      toast.style.color = "#34d399";
+      toast.textContent = "✓ Message sent! I'll get back to you soon.";
+      btn.textContent = "Sent ✓";
+      btn.disabled = true;
+      this.reset();
+    } else {
+      toast.style.color = "#f87171";
+      toast.textContent = "✕ Something went wrong. Please try again.";
+      btn.disabled = false;
+      btn.textContent = "Submit";
+    }
+  });
+</script>
+</body>
+</html>
